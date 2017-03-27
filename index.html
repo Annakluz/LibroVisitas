@@ -24,10 +24,10 @@
        <button type="button" class="boton" id="derecha" onclick="derechAli()" >Alinear Derecha</button>
        <button type="button" class="boton" id="centrar" onclick="centrar()">Centrar</button>
        <!--hasta aqui he enumerado los botones los cuales reponderan a una funcion al darles onclik-->
-       <textarea id="texto"></textarea>
+       <textarea id="texto" onkeypress="generarTexto()"></textarea>
   </form>
    <h2>Contenido</h2>
-   <p id="textogenerado"></p> <!--Creo un parrafo vacio que sera el que reciba las transformaciones-->
+   <p id="textoResultado"></p> <!--Creo un parrafo vacio que sera el que reciba las transformaciones-->
    <button type="button" class="boton" onclick="enviar()"  >Enviar</button>
    
   </div> 

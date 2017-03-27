@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+}
+#cajaprincipal{
+    width: 960px;
+    margin: 15px;
+    text-align: left;
+}
+.boton {
+    margin: 5px;
+    padding: 5px;
+    background-color: #2e518b;
+    border-radius: 5px;
+    color: blanchedalmond;
+    
+}
+#texto {
+    width: 700px;
+    height: 200px;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Libro de Visitas</title>
+    <link rel="stylesheet" href="librovisitas.css">
+    <script src="librovisitas.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ARTICULOS</h1>  
+  </header>
+  <div id="cajaprincipal">
+   <ul>      <!--Aqui pondre la lista de los mensaje--> 
+   </ul>            
+   <p>Crear Articulo</p>
+  <form id=formulario >  <!--Encierro todo en un form al que asigno un id para poder dar formato -->
+       <button type="button" class="boton" id="txtGrande" onclick="grande()">Texto Grande</button>
+       <button type="button" class="boton" id="txtMediano" onclick="mediano()" >Texto Mediano</button>
+       <button type="button" class="boton" id="txtChico" onclick="chico()" >Texto Chico</button>
+       <button type="button" class="boton" id="txtColor" onclick="colorTexto()" >Color de Texto</button>
+       <button type="button" class="boton" id="txtColorFondo" onclick="colorFondo()" >Color de Fondo</button>
+       <button type="button" class="boton" id=izquierda onclick="izquierdAli()" >Alinear Izquierda</button>
+       <button type="button" class="boton" id="derecha" onclick="derechAli()" >Alinear Derecha</button>
+       <button type="button" class="boton" id="centrar" onclick="centrar()">Centrar</button>
+       <!--hasta aqui he enumerado los botones los cuales reponderan a una funcion al darles onclik-->
+       <textarea id="texto"></textarea>
+  </form>
+   <h2>Contenido</h2>
+   <p id="textogenerado"></p> <!--Creo un parrafo vacio que sera el que reciba las transformaciones-->
+   <button type="button" class="boton" onclick="enviar()"  >Enviar</button>
+   
+  </div> 
+    
+</body>
+</html>
